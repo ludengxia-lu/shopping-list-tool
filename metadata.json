@@ -1,0 +1,5 @@
+{
+  "name": "Shopping List Scanner",
+  "description": "Upload shopping list images and search by phone number or item name.",
+  "requestFramePermissions": []
+}
