@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { format, parseISO, isToday, isYesterday } from 'date-fns';
 
 // Initialize Gemini
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ import.meta.env.VITE_GEMINI_API_KEY });
 
 interface ExtractedItem {
   id: string;
